@@ -1,6 +1,6 @@
 # RotNet - Projet de Deep Learning (M2 Data Science 2022/2023)
 
-Unsupervised representation learning by predicting image rotation
+Unsupervised representation learning by predicting image rotation on MNIST dataset.
 
 ## License
 
