@@ -53,7 +53,8 @@ class CNN(nn.Module) :
         x = self.fc2(x)
         
         return x
-    
+
+
 # --- ROTNET
 class ROTNET(nn.Module) :
     """Rotnet for digit recognition task"""
