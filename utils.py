@@ -70,8 +70,8 @@ def load_data(data, batch_size, shuffle = False, num_workers = 2) :
 def train_model(train_loader, val_loader, model = None, output_fn = None, epochs:int = None, optimizer = None, criterion = None, device = None) :
     """train a pytorch model and compute metrics such as loss and accuracy at each epoch"""
 
-    loss_valid, acc_valid =[], []
-    loss_train, acc_train =[], []
+    loss_valid, acc_valid = [], []
+    loss_train, acc_train = [], []
 
     for epoch in tqdm(range(epochs)) :
 
@@ -191,7 +191,7 @@ def plot_accuracy(epochs, loss_train, loss_valid, acc_train, acc_valid) :
     
     
 # --- Pytoch model evaluation
-def evaluate_model(model, test_loader, device) :
+def evaluate_model(model, test_loader, device, num_classes = 10) :
     """evaluate the model on the test set"""
     
     # Evaluate the model on the testloader
@@ -207,7 +207,7 @@ def evaluate_model(model, test_loader, device) :
             y_pred.extend(predicted.cpu().numpy())
 
     # Show classification report
-    target_names = [f"Class {str(i)}" for i in range(10)]
+    target_names = [f"Class {str(i)}" for i in range(num_classes)]
     print("Classification report :")
     print(classification_report(y_true, y_pred, target_names = target_names))
 

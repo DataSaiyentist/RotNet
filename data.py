@@ -143,7 +143,7 @@ def rotate_mnist(data) :
             rotated_data.append(img_rotated)
             
         # Update the list of labels
-        rotated_labels.extend([90, 180, 270])
+        rotated_labels.extend([1, 2, 3])
 
     # Convert them to tensors
     rotated_data = torch.stack(rotated_data)
