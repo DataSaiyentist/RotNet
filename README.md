@@ -1,6 +1,6 @@
 # Deep Learning Project (M2 Data Science 2022/2023)
 
-Unsupervised representation learning by predicting image rotation on MNIST dataset.
+Digit recognition of MNIST dataset (with only few labels) thanks to a self-supervised approach by predicting image rotation.
 
 - Pretrained models are available in the `/save/models` folder.
 - Preprocessing, models training and evaluations are explained in the `/notebooks` folder.
