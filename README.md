@@ -8,8 +8,7 @@ Digit recognition of MNIST dataset (but few images are labeled, ie. 10 per numbe
 
 ## References
 
-- Spyros Gidaris, Praveer Singh and Nikos Komodakis (2018) Unsupervised Representation Learning by Predicting Image Rotations, ICLR, [arXiv:1803.07728](https://openreview.net/forum?id=S1v4N2l0-)
-- [https://github.com/gidariss/FeatureLearningRotNet](https://github.com/gidariss/FeatureLearningRotNet)
+Spyros Gidaris, Praveer Singh and Nikos Komodakis (2018) Unsupervised Representation Learning by Predicting Image Rotations, ICLR, [arXiv:1803.07728](https://openreview.net/forum?id=S1v4N2l0-)
 
 ## License
 
