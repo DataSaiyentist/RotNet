@@ -4,6 +4,7 @@ Digit recognition of MNIST dataset (but few images are labeled, ie. 10 per numbe
 
 - Pretrained models are available in the `/save/models` folder.
 - Preprocessing, models training and evaluations are explained in the `/notebooks` folder.
+- A French version of the report is accessible in the `/docs` folder.
 
 ## References
 
